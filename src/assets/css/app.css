@@ -530,46 +530,45 @@
 /* *//* *//* *//* *//* *//*  RESPONSIVE  *//* *//* *//* *//* *//* *//* */
 
 
-    @media (max-width: 1300px) {
-        .am-container-1{
-            flex-direction: row;
-        }
-
-        .about-me-image {
-            height: 400px;
-            width: 400px;
-        }
-
-        .about-me-name h6{
-            font-size: 1em;
-        }
-  
-        .button {
-            font-size: 3em;
-        }
-
-        .experience-card, .experience-card-side {
-            width: 70%;
-        }
-
-
-    
-        .text-side {
-            order: 1;
-            margin-left: 3rem;
-            display: flex;
-            flex-direction: column;
-            align-items: space-around; 
-        }
-    
-            .tool-card .icon{
-                width: 2.5rem;
-                height: 2.5rem;
-            }
-  
-    
+@media (max-width: 1400px) {
+    .am-container-1{
+        flex-direction: row;
     }
 
+    .about-me-image {
+        height: 400px;
+        width: 400px;
+    }
+
+    .about-me-name h6{
+        font-size: 1em;
+    }
+
+    .button {
+        font-size: 3em;
+    }
+
+    .experience-card, .experience-card-side {
+        width: 70%;
+    }
+
+
+
+    .text-side {
+        order: 1;
+        margin-left: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: space-around; 
+    }
+
+        .tool-card .icon{
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+
+
+}
 
     @media (max-width: 1124px) {
 
