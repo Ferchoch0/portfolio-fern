@@ -1,0 +1,157 @@
+:root {
+    --white: #ffffff;
+    --blue-white: #b5bfd9;
+    --gray: #6c757d;
+    --soft-gray: #f3f3f3;
+    --gray-dark: #5c5b5b;
+    --danger: #6a3792;
+    --dark-danger: #3a1655;
+    --soft-danger: #9198e5;
+    --text:#965EFF;
+    --dark: #0c0c0c;
+    --soft-dark:#2b2b2b;
+    --cream: #ece9e0;
+    --transparent: transparent;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --font-family-dancing: 'Dancing Script', cursive;
+
+  }
+
+     /* *//* *//* *//* *//* *//*  GLOBAL STYLE *//* *//* *//* *//* *//* *//* */
+
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: var(--font-family-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0;
+    background: radial-gradient(
+      50% 50% at 100% 0,
+      var(--dark) 0% 5%,
+      var(--soft-dark) 6% 15%,
+      var(--dark) 16% 25%,
+      var(--soft-dark) 26% 35%,
+      var(--dark) 36% 45%,
+      var(--soft-dark) 46% 55%,
+      var(--dark) 56% 65%,
+      var(--soft-dark) 66% 75%,
+      var(--dark) 76% 85%,
+      var(--soft-dark) 86% 95%,
+      #0000 96%
+    ),
+    radial-gradient(
+      50% 50% at 0 100%,
+      var(--dark) 0% 5%,
+      var(--soft-dark) 6% 15%,
+      var(--dark) 16% 25%,
+      var(--soft-dark) 26% 35%,
+      var(--dark) 36% 45%,
+      var(--soft-dark) 46% 55%,
+      var(--dark) 56% 65%,
+      var(--soft-dark) 66% 75%,
+      var(--dark) 76% 85%,
+      var(--soft-dark) 86% 95%,
+      #0000 96%
+    ),
+    radial-gradient(
+      50% 50%,
+      var(--dark) 0% 5%,
+      var(--soft-dark) 6% 15%,
+      var(--dark) 16% 25%,
+      var(--soft-dark) 26% 35%,
+      var(--dark) 36% 45%,
+      var(--soft-dark) 46% 55%,
+      var(--dark) 56% 65%,
+      var(--soft-dark) 66% 75%,
+      var(--dark) 76% 85%,
+      var(--soft-dark) 86% 95%,
+      #0000 96%
+    ),
+    radial-gradient(
+        50% 50%,
+        var(--dark) 0% 5%,
+      var(--soft-dark) 6% 15%,
+      var(--dark) 16% 25%,
+      var(--soft-dark) 26% 35%,
+      var(--dark) 36% 45%,
+      var(--soft-dark) 46% 55%,
+      var(--dark) 56% 65%,
+      var(--soft-dark) 66% 75%,
+      var(--dark) 76% 85%,
+      var(--soft-dark) 86% 95%,
+      #0000 96%
+      )
+      38px 38px;
+  background-size: 76px 76px;
+  background-color: var(--soft-dark);
+
+  }
+
+  hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+  }
+  
+  h6 {
+    font-size: 1rem;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  svg {
+    overflow: hidden;
+    vertical-align: middle;
+  }
+
+
+
+  
